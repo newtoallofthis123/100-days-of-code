@@ -49,6 +49,7 @@ int main(int argc, char *argv[]){
             }
         }
         // Print result with some color formatting
+        // Print the logo to make it look cool
         printf(
             "\033[1;31m _____       _            _       _\033[0m\n"
             "\033[1;31m/  __ \\     | |          | |     | |\033[0m\n"
