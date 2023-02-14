@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=JetBrains+Mono&family=Libre+Baskerville&family=Lilita+One&family=Major+Mono+Display&family=Montserrat:wght@100;400&family=Poppins&family=Raleway&family=Roboto+Condensed:wght@700&display=swap');
+
+::selection{
+    background-color: #fffb00;
+    color: #000000;
+}
+
+body{
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    background-color: #212121;
+    color: #fff;
+    margin: 0px;
+    padding: 12px;
+}
+
+nav h1{
+    font-size: 2rem;
+    font-family: 'Archivo Black';
+}
+
+.title{
+    font-family: 'Roboto Condensed', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3.8rem;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.body{
+    padding: 2rem;
+}
+
+p{
+    font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+h2{
+    font-size: 2rem;
+    font-family: 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img{
+    width: 80%;
+    height: auto;
+    margin: 2rem;
+    border-radius: 24px;
+    border: 2px solid #000000;
+}
