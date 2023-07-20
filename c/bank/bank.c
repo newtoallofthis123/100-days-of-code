@@ -311,18 +311,18 @@ int main()
 {
     int ch;
     char acc[15];
-    printf("\033[1;31m\t\t ____    _    _   _ _  __\033[0m\n");
-    printf("\033[1;32m\t\t| __ )  / \\  | \\ | | |/ /\033[0m\n");
-    printf("\033[1;33m\t\t|  _ \\ / _ \\ |  \\| | ' /\033[0m\n");
-    printf("\033[1;32m\t\t| |_) / ___ \\| |\\  | . \\\033[0m\n");
-    printf("\033[1;31m\t\t|____/_/   \\_\\_| \\_|_|\\_\\\n\033[0m\n");
-    printf("\t\t\033[1;36m========================\033[0m\t\t\n\n");
-    printf("\t\t\033[1;35m*WELCOME TO OUR BANK SERVICES*\033[0m\n");
+    printf("\033[1;31m ____    _    _   _ _  __\033[0m\n");
+    printf("\033[1;32m| __ )  / \\  | \\ | | |/ /\033[0m\n");
+    printf("\033[1;33m|  _ \\ / _ \\ |  \\| | ' /\033[0m\n");
+    printf("\033[1;32m| |_) / ___ \\| |\\  | . \\\033[0m\n");
+    printf("\033[1;31m|____/_/   \\_\\_| \\_|_|\\_\\\n\033[0m\n");
+    printf("\033[1;36m========================\033[0m\t\n\n");
+    printf("\033[1;35m*WELCOME TO OUR BANK SERVICES*\033[0m\n");
     while (1)
     {
-        printf("\n\t1.New account\n\t2.DEPOSIT\n\t3.WITHDRAWL\n\t4.CHECK TRANSACTION HISTORY\n");
-        printf("\t5.BALANCE ENQUIRY\n\t6.DELETE ACCOUNT\n\t7.DISPLAY ALL ACCOUNTS\n\t8.EDIT DETAILS\n\t9.DISPLAY MY ACCOUNT DETAILS\n");
-        printf("\n\t\033[1;33m=>  Enter your choice\n\033[0m");
+        printf("\n1.New account\n2.DEPOSIT\n3.WITHDRAWL\n4.CHECK TRANSACTION HISTORY\n");
+        printf("5.BALANCE ENQUIRY\n6.DELETE ACCOUNT\n7.DISPLAY ALL ACCOUNTS\n8.EDIT DETAILS\n9.DISPLAY MY ACCOUNT DETAILS\n");
+        printf("\n\033[1;33m=>  Enter your choice\n\033[0m");
         scanf("%d", &ch);
         switch (ch)
         {
